@@ -1,7 +1,7 @@
 let infoBox = document.getElementById("info-box");
 infoBox.style.display = 'none'
 
-$.getJSON('http://127.0.0.1:5500/markers.json', function(data) {
+$.getJSON('https://github.com/SimonaMDimitrova/Avlicane-Map/blob/master/markers.json', function(data) {
     const properties = [];
 
     data.features.forEach(feature => {
